@@ -14,7 +14,11 @@
 
 		private void ChangeFormBackColorbutton_Click(object sender, System.EventArgs e)
 		{
-			BackColor = System.Drawing.Color.FromArgb(180, 200, 50);
+			BackColor =
+				System.Drawing.Color.FromArgb(180, 200, 50);
+
+			//this.BackColor =
+			//	System.Drawing.Color.FromArgb(180, 200, 50);
 		}
 	}
 }
